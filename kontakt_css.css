@@ -124,5 +124,5 @@ input:hover, textarea:hover {
         width: 50%;
         color: #323232;
     }
-    input, text-area {border-bottom: 1px #323232;}
+    input, text-area {border-bottom: 1px solid #323232;}
 }
