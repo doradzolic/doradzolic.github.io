@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+  <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,9 +9,10 @@
       <link rel="stylesheet" href="kontakt_css.css">
       <script src="script.js" defer></script>
       <title>Sebastijan Dračić - Kontakt</title>
-    </head>
-    <body>
-        <nav class="navbar">
+  </head>
+
+  <body>  
+    <nav class="navbar">
             <div class="logo"><a href="index.html" class="hover-underline-animation">SEBASTIJAN DRAČIĆ</a></div>
             <a href="#" class="toggle-button">
               <span class="bar"></span>
@@ -35,24 +36,14 @@
                     <a href="#">Prethodne izložbe</a>
                     <a href="#">Nadolazeće izložbe</a>
                   </div>
-                </div><!--
-                <div class="dropdown">
-                  <li><a href="kontakt.html"><p  class="hover-underline-animation">Kontakt</p></a></li>
-                  <div class="dropdown-content">
-                    <a href="#">E-mail</a>
-                    <a href="#">Društvene mreže</a>
-                  </div>
                 </div>
-                -->
                 <li><a href="kontakt.html"><p  class="hover-underline-animation">Kontakt</p></a></li>
                 <li><a href="#"><p  class="hover-underline-animation">HR/EN</p></a></li>
               </ul>
             </div>
           </nav>
 
-
-          
-      <div class="main-container">
+    <div class="main-container">
         <nav class="nav-social">
           <ul>
             <li>
@@ -67,83 +58,78 @@
           </ul>
         </nav>
 
-        
-
-        <h3 class="naslov">Kontakt</h3>
-          <div class="kontakt-div">
-
-            
-            <div class="kontakt-obrazac">
-
-                <form action="kontakt_poslano.html">
-                    <label for="ime">Ime i prezime*</label><br>
-                    <input type="text" id="ime" name="ime" class="pointer"><br><br>
+      <h3 class="naslov">Kontakt</h3>
+      <div class="kontakt-div">
+        <div class="kontakt-obrazac">
+          <form action="kontakt_poslano.html" name="form">
+            <label for="name">Ime i prezime</label><br>
+            <input type="text" id="name" name="name" class="pointer" required><br><br><br>
                 
-                    <label for="email">E-mail adresa*</label><br>
-                    <input type="text" id="email" name="email" class="pointer"><br><br>
+            <label for="email">E-mail adresa</label><br>
+            <input type="email" id="email" name="email" class="pointer" required><br><br><br>
     
-                    <label for="broj_mobitela">Broj mobitela/telefona</label><br>
-                    <input type="text" id="broj_mobitela" name="broj_mobitela" class="pointer"><br><br>
+            <label for="broj_mobitela">Broj mobitela/telefona (opcionalno)</label><br>
+            <input type="text" id="broj_mobitela" name="broj_mobitela" class="pointer" optional><br><br><br>
     
-                    <label for="upit">Upit</label><br>
-                    <textarea id="subject" name="upit" class="text-area pointer"></textarea><br>
+            <label for="upit">Upit</label><br>
+            <textarea id="subject" name="upit" class="text-area pointer" required></textarea><br>
                 
-                   <!-- <input type="submit" value="Pošalji upit" class="obrazac-gumb">-->
-                   <button class="obrazac-gumb pointer" type="submit">Pošalji upit</button>
+            <button class="obrazac-gumb pointer" type="submit">Pošalji upit</button>
                     
-                  </form>
-              </div>
-              <div class="kontakt-img">
-                <img src="img/sd-1.jpg">
-              </div>
-          </div>
+          </form>
+          
+        </div>
+        <div class="kontakt-img">
+          <img src="img/sd-1.jpg">
+        </div>
       </div>
+    </div>
   
-      <footer class="footer">
-        <div class="footer-section">
-          <a href="#" class="footer-main"><p  class="hover-underline-animation">O umjetniku</p></a>
-          <a href="#"><p  class="hover-underline-animation">Rani život</p></a>
-          <a href="#"><p  class="hover-underline-animation">Obrazovanje</p></a>
-          <a href="#"><p  class="hover-underline-animation">Nagrade</p></a>
+    <footer class="footer">
+      <div class="footer-section">
+        <a href="#" class="footer-main"><p  class="hover-underline-animation">O umjetniku</p></a>
+        <a href="#"><p  class="hover-underline-animation">Rani život</p></a>
+        <a href="#"><p  class="hover-underline-animation">Obrazovanje</p></a>
+        <a href="#"><p  class="hover-underline-animation">Nagrade</p></a>
+      </div>
+      <div class="footer-section">
+        <a href="#" class="footer-main"><p  class="hover-underline-animation">Portfolio</p></a>
+      </div>
+      <div class="footer-section">
+        <a href="#" class="footer-main"><p  class="hover-underline-animation">Kalendar</p></a>
+        <a href="#"><p  class="hover-underline-animation">Prethodne izložbe</p></a>
+        <a href="#"><p  class="hover-underline-animation">Nadolazeće izložbe</p></a>
+      </div>
+      <div class="footer-section">
+        <a href="#" class="footer-main"><p  class="hover-underline-animation">Kontakt</p></a>
+        <a href="#"><p  class="hover-underline-animation">E-mail</p></a>
+        <a href="#"><p  class="hover-underline-animation">Društvene mreže</p></a>
+      </div>
+    </footer>
+    <footer class="footer-mobile">
+      <div class="footer-mobile-big-section">
+        <div class="footer-mobile-small-section">
+          <a href="#" class="footer-main">O umjetniku</a>
+          <a href="#">Rani život</a>            <a href="#">Obrazovanje</a>
+          <a href="#">Nagrade</a>
         </div>
-        <div class="footer-section">
-          <a href="#" class="footer-main"><p  class="hover-underline-animation">Portfolio</p></a>
+        <div class="footer-mobile-small-section">
+          <a href="#" class="footer-main">Portfolio</a>
         </div>
-        <div class="footer-section">
-          <a href="#" class="footer-main"><p  class="hover-underline-animation">Kalendar</p></a>
-          <a href="#"><p  class="hover-underline-animation">Prethodne izložbe</p></a>
-          <a href="#"><p  class="hover-underline-animation">Nadolazeće izložbe</p></a>
+      </div>
+      <div class="footer-mobile-big-section">
+        <div class="footer-mobile-small-section">
+          <a href="#" class="footer-main">Kalendar</a>
+          <a href="#">Prethodne izložbe</a>
+          <a href="#">Nadolazeće izložbe</a>
         </div>
-        <div class="footer-section">
-          <a href="#" class="footer-main"><p  class="hover-underline-animation">Kontakt</p></a>
-          <a href="#"><p  class="hover-underline-animation">E-mail</p></a>
-          <a href="#"><p  class="hover-underline-animation">Društvene mreže</p></a>
+        <div class="footer-mobile-small-section">
+          <a href="#" class="footer-main">Kontakt</a>
+          <a href="#">E-mail</a>
+          <a href="#">Društvene mreže</a>
         </div>
-      </footer>
-      <footer class="footer-mobile">
-        <div class="footer-mobile-big-section">
-          <div class="footer-mobile-small-section">
-            <a href="#" class="footer-main">O umjetniku</a>
-            <a href="#">Rani život</a>
-            <a href="#">Obrazovanje</a>
-            <a href="#">Nagrade</a>
-          </div>
-          <div class="footer-mobile-small-section">
-            <a href="#" class="footer-main">Portfolio</a>
-          </div>
-        </div>
-        <div class="footer-mobile-big-section">
-          <div class="footer-mobile-small-section">
-            <a href="#" class="footer-main">Kalendar</a>
-            <a href="#">Prethodne izložbe</a>
-            <a href="#">Nadolazeće izložbe</a>
-          </div>
-          <div class="footer-mobile-small-section">
-            <a href="#" class="footer-main">Kontakt</a>
-            <a href="#">E-mail</a>
-            <a href="#">Društvene mreže</a>
-          </div>
-        </div>
-      </footer>
-    </body>
+      </div>
+    </footer>
+  </body>
 </html>
+
