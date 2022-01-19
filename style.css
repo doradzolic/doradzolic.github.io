@@ -137,6 +137,7 @@ picture img{
   background-color: white;
   z-index: 1;
   transition: .5s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .text-right {margin-left: -200px;}
 .text-left {margin-right: -200px;}
@@ -146,7 +147,8 @@ picture img{
 }
 
 .text-left:hover, .text-right:hover {
-  box-shadow: 0 0 0 5px 	#323232;
+  /*box-shadow: 0 0 0 3px 	#323232;*/
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .text-right h3, .text-left h3 {
