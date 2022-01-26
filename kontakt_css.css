@@ -36,7 +36,7 @@ h3 {
     border: none;
     transition: .5s ease;
     width: 30%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .obrazac-gumb:hover {
@@ -51,7 +51,7 @@ input {
 input, textarea {
     background: transparent;
     border: none;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: .5s ease;
     margin-top: 5px;
 }
